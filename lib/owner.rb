@@ -5,6 +5,11 @@ class Owner
   def initialize(name = "Victoria", species = "human")
     @name = name
     @species = species
+    save
+  end
+
+  def save
+    @@all << self
   end
 
   def say_species
