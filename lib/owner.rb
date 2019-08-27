@@ -1,3 +1,9 @@
 class Owner
-  # code goes here
+  attr_reader :name
+  attr_accessor :species
+
+  def initialize(name = "Victoria", species = "human")
+    @name = name
+  end
+  
 end
