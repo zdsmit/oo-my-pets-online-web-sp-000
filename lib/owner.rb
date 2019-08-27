@@ -5,5 +5,5 @@ class Owner
   def initialize(name = "Victoria", species = "human")
     @name = name
   end
-  
+
 end
