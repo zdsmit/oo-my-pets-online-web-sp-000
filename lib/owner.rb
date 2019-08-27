@@ -56,7 +56,7 @@ class Owner
     all_pets = []
     all_pets << dogs
     all_pets << cats
-    @@all_pets.each do |pet|
+    all_pets.each do |pet|
       pet.owner = "Nobody"
       pet.mood = "nervous"
     end
