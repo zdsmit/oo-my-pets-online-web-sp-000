@@ -5,5 +5,5 @@ class Cat
     @name = name
   end
 
-  
+
 end
