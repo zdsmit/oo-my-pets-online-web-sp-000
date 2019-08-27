@@ -37,11 +37,7 @@ class Owner
   end
 
   def buy_cat(cat_name)
-    Cat.all.each do |cat|
-      if cat.name == cat_name
-        cat.owner = self
-      end
-    end
+    cat = Cat.new(cat_name, self)
   end
 
   def buy_dog
