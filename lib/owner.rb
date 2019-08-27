@@ -28,4 +28,10 @@ class Owner
     @@all.clear
   end
 
+  def cats
+  end
+
+  def dogs
+  end
+
 end
